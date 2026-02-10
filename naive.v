@@ -12,7 +12,7 @@ assign Y =
     (~A & B & C & ~D) |     //6
     (A & ~B & C & ~D) |     //10
     (A & B & ~C & ~D) |     //12
-    (A & B & C & ~D); |     //14
+    (A & B & C & ~D);       //14
     
 
 endmodule
