@@ -22,9 +22,12 @@ as well as the naive function. From there we input our results into the correlat
 
 ### Why are the groups of 1’s (or 0’s) that we select in the KMap able to go across edges?
 
+ We are able to do this to maximize the amount of 1's or 0's we have in a group. A group of 4 is always better since only two variables come out and are used for our equation. It is also good to ensure the grouping of 1's or 0's.
+
 ### Why are the names Sum of Products and Products of Sums?
 
 Because for the minterm or sum of products we are taking multiple variables being multiplied by eachother and adding them to another group. I.E. (ABC) + (DEF). Therefor we are simply adding up all the products. Inversley for maxterms where we take a product of sums, we are adding a group of variables and multiplying them together. I.E. (A+B+C)(D+E+F). Therefor we are multiplying the total sum of each group of variables.
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
 
+We are able to check that the signals match using XOR by using a for loop and nested if statement inside of it. The program also uses the symbol "^" as an XOR.
